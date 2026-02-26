@@ -3,8 +3,16 @@ import cv2
 import numpy as np
 
 # DAVETLİ LİSTESİ (Buraya 40 kişinin kodunu ekleyebilirsin)
-onayli_liste = ["ahmet123", "ayse456", "party2026", "vip_konuk"]
-
+onayli_liste = [
+    "Ahmet_Yilmaz", "Ayse_Kaya", "Mehmet_Demir", "Fatma_Celik", "Can_Yildiz", 
+    "Ece_Aydin", "Burak_Ozkan", "Asli_Gunes", "Emre_Sahin", "Deniz_Arslan",
+    "Selin_Bulut", "Mert_Kilic", "Gamze_Yavuz", "Okan_Sari", "Pelin_Aksoy",
+    "Tolga_Tekin", "Irem_Unal", "Bora_Koc", "Seda_Turan", "Umut_Erdem",
+    "Gizem_Akkaya", "Eren_Polat", "Derya_Korkmaz", "Arda_Guler", "Nil_Ozturk",
+    "Kaan_Yaman", "Buse_Avci", "Yigit_Cetin", "Mine_Eren", "Onur_Dogan",
+    "Ezgi_Kara", "Serkan_Ay", "Tugba_Guzel", "Hakan_Vural", "Ceren_Simsek",
+    "Volkan_Taskin", "Dilek_Yener", "Sinan_Coskun", "Hande_Ates", "Kerem_Yigit"
+]
 st.set_page_config(page_title="Party Door", page_icon="🚪")
 st.title("💃 After Party Check-in")
 
