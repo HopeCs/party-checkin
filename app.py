@@ -22,6 +22,7 @@ if img_file:
         if data in onayli_liste:
             st.balloons()
             st.success(f"✅ GİRİŞ ONAYLANDI: {data}")
+            onayli_liste = [f"davetli_{i}" for i in range(1, 41)]
         else:
             st.error("❌ GEÇERSİZ KOD! Liste dışı.")
     else:
